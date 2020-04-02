@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color:#111111;
+}
+
+header{
+    padding: 32px;
+    width: 940px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.link a{
+    color: #111111;
+    text-decoration: none;
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+.link a:first-child{
+    margin-right: 8.7%;
+    height: 26.9px;
+    width: 90.6px;
+    font-family: Cochin;
+    font-size: 28px;
+    letter-spacing: 1.65px;
+}
+
+.link a:nth-last-child(2){
+    margin-right: 2.1% ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+/* == Inicio container == */
+
+.container .content{
+    margin-left: auto;
+    margin-right: auto;
+    width:940px;
+    height: 366px;
+    background-color:#FBDFDB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Text Imagem";
+    border-radius: 30px ;
+}
+
+.content .description{
+    grid-template-areas: Text ;
+    size: 18px;
+    font-family: "Roboto Regular";
+    color: #000000;
+    margin:177px 60px ;
+    line-height:28px;
+    
+}
+.content .description h1{
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 31px;
+    color: #111111;
+    
+}
+
+.content .imageChef{
+    grid-template-areas: "Imagem";
+    width: 216px;
+    height: 300px;
+    margin: 66px 100px 0;
+}
+
+/* Inicio Pratos */
+
+.pratos{
+    width:940px;
+    height: 366px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 20px;
+    grid-template-areas: "prato prato prato"
+                         "prato prato prato"
+                         "prato prato prato";
+
+    background: whitesmoke;
+    margin-bottom: 12vh;
+    
+}
+
+.textPratos h1{
+    width: 940px;
+    margin: 50px auto 20px auto;
+}
+
+.pratos .prato{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 202px;   
+}
+.pratos .prato img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 140px;
+    grid-template-areas: "prato";
+    border-radius: 15px;
+}
+
+.prato .title {
+    size: 18px;
+    color: #111111;
+    line-height: 21px;
+    font-family: "Roboto Regular", sans-serif;
+    margin-top:18px;
+    margin-bottom: 5px;
+}
+
+.prato p{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+
+/* === footer === */
+
+.footer{
+    background-color: #EEEEEE;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textFooter{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    height:16;
+    color:#999999;
+    width: 267px;
+    height: 16px;
+}
+
+
+.titleIformation{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.titleIformation h1{
+    color: #111111;
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.titleIformation h2{
+    font-size: 20px;
+    margin: 2.7% 0 1.8% 0;
+    font-family: "Roboto Bold", sans-serif;
+}
+
+.textIformation{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Regular";
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
